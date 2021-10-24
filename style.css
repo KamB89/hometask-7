@@ -1,0 +1,169 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.main-kontejner{
+    width: 600px;
+    background-color: rgba(223, 219, 215, 0.932);
+    padding-left: 20px;
+    height: 700px;
+    margin-left: 40px;
+}
+
+.head-input input{
+    border-radius: 5%;
+    height: 30px;
+    border: 1px;
+}
+
+.head-input img{
+    position: relative;
+    left: 30px;
+}
+
+
+#valid{
+    border: 1px solid rgb(4, 189, 4);
+    color: rgb(4, 189, 4);
+}
+
+
+
+#invalid{
+    border: 1px solid rgb(223, 88, 88);
+}
+
+.checkbox1{
+    width: 37px;
+    height: 17px;
+    background-color: white;
+    border-radius: 11%;
+    border: 2px solid rgb(26, 196, 4);
+}
+
+.checkboxes{
+    display: flex;
+
+}
+.checkboxes p{
+    margin: 0px 10px 16px 5px;
+}
+/* .checkbox1:first-child{???????? */
+   .mark1{
+    width: 20px;
+    height: 15px;
+    margin-top: 1px;
+    margin-left: 1px;
+    background: rgb(26, 196, 4);
+    border-radius: 17%;
+}
+.mark1:hover{
+     margin-left: 16px;
+     transition: 1s;
+ }
+
+ .checkbox2{
+    width: 37px;
+    height: 17px;
+    background-color: white;
+    border-radius: 11%;
+    border: 2px solid rgb(218, 6, 147);
+ }
+
+
+ .mark2{
+    width: 20px;
+    height: 15px;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-left: 15px;
+    background: rgb(218, 6, 147);
+    border-radius: 17%;
+}
+
+.mark2:hover{
+    margin-left: 1px;
+    transition: 0.5s;
+}
+    
+.button-list{
+    display: flex;
+}
+
+.button-list button{
+    margin-right: 10px;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 8%;
+    color: white;
+border: none;   
+    
+}
+
+
+
+.button-list button:first-child{
+    background-color: rgb(2, 163, 2);
+}
+
+
+.button-list button:nth-child(2){
+    background-color: rgb(1, 105, 1);
+}
+
+.button-list button:nth-child(3){
+    background-color: rgb(230, 102, 123);
+}
+
+.button-list button:nth-child(4){
+    background-color: rgb(124, 1, 1);
+}
+
+.button-list button:nth-child(5){
+    background-color: grey;
+
+}
+
+.button-list button:nth-child(6){
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: green;
+    font-weight: 600;
+}
+
+
+.button-list button:nth-child(7){
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(235, 57, 57); 
+    font-weight: 600;
+}
+
+textarea{
+    border-radius: 1%;
+    border: grey;
+}
+
+textarea:active{
+    border: grey;
+}
+
+
+
+#valid{
+    background: url(valid.png)
+no-repeat right;
+
+background-color: white;
+
+}
+
+#invalid{
+    background: url(invalid.png) no-repeat right;
+    background-color: white;
+    color: rgb(223, 88, 88);
+}
